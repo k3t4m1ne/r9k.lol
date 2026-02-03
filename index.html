@@ -10,8 +10,26 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <div class="title-container">
+    <div class="main">
         <p class="Welcome">W3LC0M3</p>
+        <div id="messages"></div>
+        <script>
+            const messages = [
+                "Larp",
+                "YunkoWasHere",
+                "Wifiskeletron so tuff",
+                "Fakecel",
+                "https://r9k.lol/tsuki",
+                "15th january 2017",
+                ">daydream world tells you to die before aug 28",
+                "We need the key",
+                "Aurora"
+            ];
+
+            const rndMsg = messages[Math.floor(Math.random() * messages.length)];
+            document.getElementById("messages").textContent = rndMsg;
+        </script>
     </div>
+    <button class="tsuki">Enter LFE</button>
 </body>
 </html>

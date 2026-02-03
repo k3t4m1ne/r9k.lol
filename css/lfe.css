@@ -1,0 +1,13 @@
+body {
+    animation: fading 5s;
+}
+
+@keyframes fading {
+  from { opacity: 0; }
+  to { opacity: 1s; }
+}
+
+.sys {
+    color: white;
+    
+}
